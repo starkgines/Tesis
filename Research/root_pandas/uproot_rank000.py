@@ -17,6 +17,7 @@ keys_f = file['muonCCD1'].keys()
 mounCCD1 = file['muonCCD1']
 
 print(mounCCD1)
+print('Tree in mounCCD1')
 mounCCD1.show()
 
 DiffX = np.array(mounCCD1["DiffX"].array())
