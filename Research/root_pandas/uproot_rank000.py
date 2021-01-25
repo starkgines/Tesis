@@ -30,6 +30,7 @@ Diff = DiffX-DiffY
 
 d = np.array([DiffX,DiffY])
 print(d.shape)
-
+track=np.array(mounCCD1["trackNumber"].array())
 plt.plot(DiffY,DiffX,'ro')
+#plt.plot(track)
 plt.show()
