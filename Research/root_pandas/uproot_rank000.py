@@ -1,11 +1,11 @@
 import uproot
 import numpy as np
 import matplotlib.pyplot as plt
-import cv2
+
 
 file = uproot.open("../root_pandas/dose-rank000.root")
 
-print("...............Primera lectura del root.........")
+print("...............Primera lectura del root muon CCD1.........")
 ## KEYs Rama principal
 print(file.keys())
 keys_p = file.keys()
@@ -31,6 +31,16 @@ Diff = DiffX-DiffY
 d = np.array([DiffX,DiffY])
 print(d.shape)
 track=np.array(mounCCD1["trackNumber"].array())
+
+
+print("...............Primera lectura del root allCCD1.........")
+
+print(file['allCCD1'].keys())
+
+
+
+
+
 plt.plot(DiffY,DiffX,'ro')
 #plt.plot(track)
 plt.show()
