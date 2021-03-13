@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\stark\\.conda\\envs\\tesis\\python.exe"
+    "python.pythonPath": "C:\\Users\\stark\\.conda\\envs\\tesis\\python.exe",
+    "jupyter.jupyterServerType": "local"
 }
