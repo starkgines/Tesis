@@ -1,8 +1,8 @@
 # Tesis 
+## Segmentación y Seguimiento de muones utilizando técnicas de deep learning
+ para el experimento connie
 
-# TKC
-
-## How to work in this project
+## Como trabajar:
 
   1. Create a enviroment with anaconda prompt 
       *conda create -n tesis
@@ -13,24 +13,17 @@
       * activate tesis
       * ipython kernel install --name "tesis" --user
   4. install all dependence
-    
-
 
 # MobaXterm
-
-## Computer matters
-  * LSB Version:    :base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch
-  * Distributor ID: CentOS
-  * Description:    CentOS release 6.5 (Final)
-  * Release:        6.5
-  * Codename:       Final
-
 
 ## User and Pass
   1. User : ssh -X -p 22000 dlconnie@200.10.231.198
   2. Pass : dlconnie@2020 
   3. source venv/bin/activate
-
+  --------------------------------------------------
+## Jupyter Notebook
+  1. User: ssh -p 2222 -CNL localhost:1234:localhost:1234 gpu@200.10.231.215
+  2. Pass: luna2020
 
 ## How to run and read with root in MobaXterm
   1. $nohup ./muonModel primary.mac > log 2> loger  
