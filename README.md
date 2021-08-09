@@ -22,7 +22,7 @@
   3. source venv/bin/activate
   --------------------------------------------------
 ## Jupyter Notebook
-  1. User: ssh -p 2222 -CNL localhost:1234:localhost:1234 gpu@200.10.231.215
+  1. User: ssh -p 2222 -CNL localhost:1234 :localhost:1234 gpu@200.10.231.215 (sacar espacio entre "1234 :")
   2. Pass: luna2020
 
 ## How to run and read with root in MobaXterm
