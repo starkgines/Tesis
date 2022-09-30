@@ -22,8 +22,11 @@
   3. source venv/bin/activate
   --------------------------------------------------
 ## Jupyter Notebook
-  1. User: ssh -p 2222 -CNL localhost:1234 :localhost:1234 gpu@200.10.231.215 (sacar espacio entre "1234 :")
+  1. User: ssh -p 2222 -CNL localhost:1235:localhost:8888 gpu@200.10.231.215
+
   2. Pass: luna2020
+  
+  3. localhost:1235
 
 ## How to run and read with root in MobaXterm
   1. $nohup ./muonModel primary.mac > log 2> loger  
